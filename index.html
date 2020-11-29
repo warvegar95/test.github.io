@@ -1,7 +1,61 @@
-<!DOCTYPE html>
 <html>
+    <head lang="NO">
+        <Style>
+            p {color:red;}
+            body {
+                background-image: url('turkis.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+}
+
+    #BANANA {
+    background-image: url("BANANA.png");
+    z-index: 1;
+    width: 350px;
+    height: 270px;
+    position: absolute;
+    bottom: 400px;
+    left: -400px;
+    animation: move-BANANA 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes move-BANANA {
+    0% {
+        left:-400px;
+    }
+    100% {
+        left: 1990px;
+        transform: rotate(570deg);
+    }
+}
+       
+    
+        </Style>
+        <title> Apekatt forsvunnet</title>
+        <meta name="keywords" content="Apekatt, Monke, forsvunnet">
+        <meta name="author" content="Vegar">
+        <meta name="description" content="En side laget for å finne apekatten Monke">
+        <meta charset="UTF-8">
+    </head>
+
     <body>
-        <h1>Min første hjemmeside!</h1>
-        <p>Denne hjemmesiden er laget med Git Pages.</p>
+    <center><h1>Apekatt forsvunnet</h1>
+        <h2><em>Han er Monke</em></h2>
+        <img src="apekatt.jpg" alt="Apekatt" width="600" height="500">
+        <p>Han kom seg ut</p>
+        <p>Han er en veldig kul apekatt, han liker å spise bananer og ikkje vere aktiv</p>
+        <p><Strong>Har du sett Monke? Vennligst kontakt eieren hans på <a href="mailto:eierentilmonke@email.com">eierentilmonke@email.com</a></Strong></p>
+    <strong>TUSEN TAKK! :)</strong>
+    </center>
+  
+    <div id="BANANA"></div>
+
     </body>
+
+
+
+    
 </html>
